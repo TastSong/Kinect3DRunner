@@ -76,6 +76,11 @@ public class AnimationManager : MonoBehaviour {
         if (animation[Roll.name].normalizedTime > 0.95f)
         {
             animationHandler = PlayJumpLoop;
+            PlayerController.instance.isJump = false;
+        }
+        else
+        {
+            PlayerController.instance.isJump = true;
         }
     }
 
