@@ -226,19 +226,19 @@ public class PlayerController : MonoBehaviour {
         moveDirection.y -= jumpValue * 3;
     }
 
-    void JumpDouble()
+    public void JumpDouble()
     {
         AnimationManager.instance.animationHandler = AnimationManager.instance.PlayDoubleJump;
         moveDirection.y += jumpValue * 1.3f;
     }
 
-    void JumpUp()
+    public void JumpUp()
     {
         AnimationManager.instance.animationHandler = AnimationManager.instance.PlayJumpUp;
         moveDirection.y += jumpValue;
     }
 
-    void MoveLeft()
+    public void MoveLeft()
     {
         if (standPosition != Position.Left)
         {
@@ -260,7 +260,7 @@ public class PlayerController : MonoBehaviour {
         }
     }
 
-    void MoveRight()
+    public void MoveRight()
     {
         if (standPosition != Position.Right)
         {

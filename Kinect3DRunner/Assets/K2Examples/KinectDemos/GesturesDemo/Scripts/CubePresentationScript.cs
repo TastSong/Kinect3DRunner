@@ -6,16 +6,18 @@ public class CubePresentationScript : MonoBehaviour
 {
 	[Tooltip("Camera used for screen-to-world calculations. This is usually the main camera.")]
 	public Camera screenCamera;
-
+    //演示幻灯片是否可以用手势改变
 	[Tooltip("Whether the presentation slides may be changed with gestures (SwipeLeft, SwipeRight & SwipeUp).")]
 	public bool slideChangeWithGestures = true;
+    //演示幻灯片是否可以用键进行更改
 	[Tooltip("Whether the presentation slides may be changed with keys (PgDown & PgUp).")]
 	public bool slideChangeWithKeys = true;
 	[Tooltip("Speed of rotation, when the presentation cube spins.")]
 	public int spinSpeed = 5;
-
+    //幻灯片列表
 	[Tooltip("List of the presentation slides.")]
 	public List<Texture> slideTextures;
+    //包含表示多维数据集的边平面的列表
 	[Tooltip("List of the side planes, comprising the presentation cube.")]
 	public List<GameObject> cubeSides;
 	
