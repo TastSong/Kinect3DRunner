@@ -8,6 +8,8 @@ public class GameController : MonoBehaviour {
 
     public static GameController instance;
 
+    public GameObject rightHandImag;
+
 	// Use this for initialization
 	void Start () {
         instance = this;
@@ -18,6 +20,9 @@ public class GameController : MonoBehaviour {
     public void Play()
     {
         isPause = false;
+
+        //2020.1.27
+        rightHandImag.SetActive(false);
     }
 
     public void Pause()

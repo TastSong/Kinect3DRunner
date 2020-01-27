@@ -1412,7 +1412,6 @@ MonoBehaviour:
   rightHandImag: {fileID: 1086255807}
   button1: {fileID: 576251823}
   button2: {fileID: 2063065796}
-  button3: {fileID: 0}
   handCloseSprite: {fileID: 21300000, guid: 686d798dec0c1584e9773e3f7f6ab0c3, type: 3}
   handOpenSprite: {fileID: 21300000, guid: dd2daef317e527943aff57c5bb662b13, type: 3}
   smoothFactor: 5
@@ -2417,6 +2416,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPause: 0
   isPlay: 0
+  rightHandImag: {fileID: 1086255806}
 --- !u!114 &1408447578
 MonoBehaviour:
   m_ObjectHideFlags: 0

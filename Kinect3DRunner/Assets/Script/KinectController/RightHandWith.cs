@@ -61,7 +61,8 @@ public class RightHandWith : MonoBehaviour
                         print("点击按钮1");
                     }
                     if (isClickButton2)
-                    {
+                    {/*此处为重点调试处，要看看是不是要禁用KinectManager.cs，还要看看
+                      如何进入游戏，应该调用Play函数*/
                         //Rigidbody2D r2 = button2.GetComponent<Rigidbody2D>();
                         //r2.gravityScale = 30;
                         //r2.AddForce(new Vector2(0, 800));
